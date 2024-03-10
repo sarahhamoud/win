@@ -1,0 +1,64 @@
+ 
+ *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+  body{
+    flex-wrap: wrap;
+  
+  
+  }
+  .w3-sidebar{
+    width: 35%;
+    background-color: cadetblue;
+    
+    
+  }
+  .sid2{
+    margin-left: 35%;
+   
+
+  }
+
+  .top{
+    text-align: center;
+    contain: content;
+    align-items: center;
+   border: 20px;
+   padding: 2px;
+  }
+
+  .topname{
+    padding: 0px;
+    margin: 0px;
+    font: 1em;
+    background-color: cadetblue;
+}
+h2{
+    text-align: center;
+ font-size: 1.7em ;
+}
+.mini{
+width:40%;
+border-radius: 50%;
+
+}
+p{
+    font-size: 110%;
+    font-weight: bold;
+   
+}
+@media screen and (min-width: 600px){
+   body{
+   margin-left: 30%;
+   margin-right: 30%
+   }
+   .w3-sidebar{
+    width: 250px;
+   }
+   .sid2{
+    margin-left:  250px;;
+   }
+  }
